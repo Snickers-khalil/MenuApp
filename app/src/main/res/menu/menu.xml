@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/search"
+        android:title="Search Here"
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/add"
+        android:title="add new"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/addicon"/>
+    <item
+        android:id="@+id/filter"
+        android:title="Apply Filter" />
+    <item
+        android:id="@+id/my_account"
+        android:title="My Account" />
+
+</menu>
